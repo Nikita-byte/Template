@@ -66,10 +66,10 @@ public sealed class ObjectPool
         return go;
     }
 
-    public void ReturnInPool(ObjectType objectType)
+    public void ReturnInPool(ObjectType objectType, GameObject gameObject)
     {
-    //    gameObject.SetActive(false);
-    //    gameObject.transform.SetParent(_pool.transform);
+        gameObject.SetActive(false);
+        gameObject.transform.SetParent(_pool.transform);
 
         switch (objectType)
         {

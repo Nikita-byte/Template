@@ -15,11 +15,11 @@ C:/Projects/Template/Tamplate
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62353
+51017
 Successfully changed project path to: C:/Projects/Template/Tamplate
 C:/Projects/Template/Tamplate
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,51 +35,67 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001545 seconds.
+Registered in 0.001462 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 18.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
+- Completed reload, in  0.894 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000525 seconds.
+Registered in 0.001490 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.681 seconds
+- Completed reload, in  0.689 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.1 MB.
-System memory in use after: 57.1 MB.
+Unloading 1156 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.1 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
-Total: 1.536900 ms (FindLiveObjects: 0.134200 ms CreateObjectMapping: 0.026600 ms MarkObjects: 1.282200 ms  DeleteObjects: 0.093300 ms)
-
-========================================================================
-Received Import Request.
-  path: Packages/com.unity.test-framework/package.json
-  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dd1f35a5ff9cf11a7f36847ce181fb') in 0.030851 seconds
-  Import took 0.032389 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1601.
+Total: 1.608300 ms (FindLiveObjects: 0.121100 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.386900 ms  DeleteObjects: 0.065300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Packages/com.unity.ext.nunit/package.json
-  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca204109b1dcda167d7298966cc1976a') in 0.008057 seconds
-  Import took 0.009501 seconds .
+  path: Assets/Scripts/Model/ScriptOnText.cs
+  artifactKey: Guid(8f046422385bd5442bc4f75485395ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Model/ScriptOnText.cs using Guid(8f046422385bd5442bc4f75485395ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d50418bc8cadd1ee5da6f57c8e86812') in 0.024195 seconds
+  Import took 0.025958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.829740 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(55a08be403d80fa4385364e3cdca97be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(55a08be403d80fa4385364e3cdca97be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44fcb64e2d57a26cb1a81e3ac6c088e') in 0.016981 seconds
+  Import took 0.018707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.771585 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(e74021363be9a3f4cb40f14ed3ddfc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(e74021363be9a3f4cb40f14ed3ddfc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de759161e9dfae00363f11d35cd6b6bb') in 0.007764 seconds
+  Import took 0.009471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.597585 seconds.
+  path: Assets/Resources/UI
+  artifactKey: Guid(2cc1de0d175a32940b9f20d50c4e5005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI using Guid(2cc1de0d175a32940b9f20d50c4e5005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32291b1c3159fc0f0aeb26053643786d') in 0.007310 seconds
+  Import took 0.008829 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
